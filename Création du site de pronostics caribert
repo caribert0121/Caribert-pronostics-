@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎯 Pronostics Caribert</title>
+    <meta charset="UTF-8">
+    <style>
+        body { 
+            font-family: Arial; 
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .match {
+            background: rgba(255,255,255,0.2);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .btn {
+            background: #28a745;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 PRONOSTICS CARIBERT</h1>
+        <p>Par caribert0121 - 100% Gratuit</p>
+        
+        <div class="match">
+            <h3>⚽ Paris SG vs Marseille</h3>
+            <p>📊 <strong>Pronostic: 1 (65%)</strong></p>
+            <p>🎯 <strong>BTTS: Oui (72%)</strong></p>
+            <p>⏰ 21:00 - Ligue 1</p>
+        </div>
+        
+        <div class="match">
+            <h3>⚽ Lyon vs Lille</h3>
+            <p>📊 <strong>Pronostic: 1X (78%)</strong></p>
+            <p>🎯 <strong>BTTS: Oui (68%)</strong></p>
+            <p>⏰ 19:00 - Ligue 1</p>
+        </div>
+        
+        <div class="match">
+            <h3>⚽ Real Madrid vs Barcelone</h3>
+            <p>📊 <strong>Pronostic: 1 (58%)</strong></p>
+            <p>🎯 <strong>BTTS: Oui (75%)</strong></p>
+            <p>⏰ 21:00 - La Liga</p>
+        </div>
+        
+        <button class="btn" onclick="alert('🎫 Ticket sécurisé généré!\\n💰 Cote: 2.15\\n💵 Mise: 70€\\n🎯 Gain: 150€')">
+            🛡️ Générer Ticket Sécurisé
+        </button>
+        
+        <button class="btn" onclick="alert('🎫 Ticket principal généré!\\n💰 Cote: 5.50\\n💵 Mise: 25€\\n🎯 Gain: 137€')">
+            🎯 Générer Ticket Principal
+        </button>
+        
+        <div style="margin-top: 30px; padding: 15px; background: rgba(255,255,255,0.2); border-radius: 10px;">
+            <p>🚀 <strong>Site créé par caribert0121</strong></p>
+            <p>📧 Contacte-moi pour plus de pronostics!</p>
+        </div>
+    </div>
+</body>
+</html>
